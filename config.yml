@@ -1,0 +1,25 @@
+baseURL: ""
+languageCode: en-us
+title: Hugo Test
+theme: PaperMod
+
+params:
+  cover: 
+    linkFullImages: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+  
+menu:
+  main: 
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    
